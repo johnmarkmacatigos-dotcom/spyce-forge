@@ -1,0 +1,28 @@
+{
+  "name": "spyce-forge",
+  "version": "0.3.0",
+  "description": "The SPYCE PROJECT's consolidated agentic engineering stack \u2014 one install that bundles the operating methodology, dual grounding (Context7 for external libs + Graphify for your own codebase), three live MCP servers (Context7, Playwright, and the official Porkbun domain/DNS server), the Ralph autonomy loop, a two-stage reviewer, and a safe domain-acquisition capability \u2014 and wires up the external orchestrator (superpowers + Ruflo) via a single PowerShell-first installer with the Playwright collision and hook conflicts handled.",
+  "author": {
+    "name": "John Mark Macatigos",
+    "url": "https://stacklore.dev"
+  },
+  "homepage": "https://stacklore.dev",
+  "license": "MIT",
+  "keywords": [
+    "spyce",
+    "agent",
+    "methodology",
+    "tdd",
+    "autonomy",
+    "orchestration",
+    "ruflo",
+    "context7",
+    "graphify",
+    "playwright",
+    "ralph",
+    "porkbun",
+    "domain",
+    "dns",
+    "codebase-graph"
+  ]
+}

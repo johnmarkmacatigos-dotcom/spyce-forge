@@ -1,0 +1,28 @@
+{
+  "feature": "User profile avatars",
+  "branchName": "feat/profile-avatars",
+  "qualityChecks": ["npm run typecheck", "npm test", "npm run lint"],
+  "stories": [
+    {
+      "id": 1,
+      "priority": 1,
+      "title": "Add avatar_url column to users table",
+      "acceptance": "Migration adds nullable avatar_url (text) to users; migration runs clean up and down.",
+      "passes": false
+    },
+    {
+      "id": 2,
+      "priority": 2,
+      "title": "Add avatar upload server action",
+      "acceptance": "Server action validates image type and size, stores file, writes avatar_url. Unit tests cover reject + accept paths.",
+      "passes": false
+    },
+    {
+      "id": 3,
+      "priority": 3,
+      "title": "Render avatar in profile header component",
+      "acceptance": "Profile header shows avatar when present, initials fallback when null. Component test covers both.",
+      "passes": false
+    }
+  ]
+}

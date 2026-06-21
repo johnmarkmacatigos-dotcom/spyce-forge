@@ -1,0 +1,15 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Agent / tool working output (generated per-repo, never committed here)
+graphify-out/
+.claude-flow/
+*.log
+
+# Node (in case anything gets installed locally during testing)
+node_modules/
+
+# Local env — never commit secrets
+.env
+.env.*

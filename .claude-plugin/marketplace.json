@@ -1,0 +1,19 @@
+{
+  "name": "spyce-forge-marketplace",
+  "version": "1.0.0",
+  "description": "SPYCE PROJECT's private Claude Code marketplace — home of the spyce-forge agentic engineering stack.",
+  "owner": {
+    "name": "John Mark Macatigos",
+    "url": "https://github.com/johnmarkmacatigos-dotcom"
+  },
+  "plugins": [
+    {
+      "name": "spyce-forge",
+      "source": "./plugins/spyce-forge",
+      "description": "Consolidated agentic engineering stack: methodology + dual grounding (Context7 + Graphify) + Context7/Playwright/Porkbun MCP servers + Ralph autonomy loop + Ruflo orchestration + safe domain acquisition + two-stage reviewer.",
+      "version": "0.3.0",
+      "category": "development",
+      "keywords": ["spyce","methodology","orchestration","domain","grounding"]
+    }
+  ]
+}
